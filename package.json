@@ -1,0 +1,31 @@
+{
+  "name": "portafolios",
+  "version": "1.0.0",
+  "description": "Portafolios Francisco Espinoza",
+  "main": "app.js",
+  "scripts": {
+    "build:production": "webpack -p",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Francisco Espinoza",
+  "license": "ISC",
+  "dependencies": {
+    "html-webpack-plugin": "^3.2.0",
+    "mini-css-extract-plugin": "^0.8.0",
+    "popper": "^1.0.1",
+    "popper.js": "^1.16.0",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10"
+  },
+  "devDependencies": {
+    "bootstrap": "^4.4.1",
+    "css-loader": "^3.3.2",
+    "jquery": "^3.4.1",
+    "node-sass": "^4.13.0",
+    "postcss-loader": "^3.0.0",
+    "sass-loader": "^8.0.0",
+    "style-loader": "^1.0.1",
+    "webpack-dev-server": "^3.9.0"
+  }
+}
