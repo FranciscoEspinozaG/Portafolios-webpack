@@ -15,6 +15,20 @@
 
 // Personalizadas
 @import "/custom-css/colores";
+@import "/custom-css/tipografias";
+
+body{
+    background: $gris-claro !important;
+    font-family: $fuente-principal !important;
+}
+
+.texto-claro{
+    color:white;
+}
+
+.texto-oscuro{
+    color: balck;
+}
 
 .destacar{
     border: 1px solid red;
