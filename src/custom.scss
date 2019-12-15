@@ -16,6 +16,8 @@
 // Personalizadas
 @import "/custom-css/colores";
 @import "/custom-css/tipografias";
+@import "/owl-carousel/owl-carousel.scss";
+@import "/owl-carousel/owl-theme.scss";
 
 body{
     background: $gris-claro !important;

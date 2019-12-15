@@ -7,7 +7,6 @@ module.exports = {
     mode: 'development',
     entry: {
         app: './src/app.js',
-        owlCarousel: './src/owl-carosuel.js'
     },
     output:{
         path: __dirname + '/build',
