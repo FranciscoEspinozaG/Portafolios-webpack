@@ -34,3 +34,12 @@ body{
     border: 1px solid red;
     box-sizing: border-box;
 }
+
+.barra-bajada{
+    margin-top: -10%;
+    z-index: 2;
+}
+
+.cover{
+    object-fit: cover;
+}

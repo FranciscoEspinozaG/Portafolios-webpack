@@ -1,4 +1,5 @@
 import "./estilo.scss";
+import "./owl-carousel/owl.scc";
 import "bootstrap";
 import $ from 'jquery';
 

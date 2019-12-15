@@ -4,7 +4,11 @@ const path = require('path');
 const MiniCssExtractPluguin = require('mini-css-extract-plugin');
 
 module.exports = {
-    entry: './src/app.js',
+    mode: 'development',
+    entry: {
+        app: './src/app.js',
+        owlCarousel: './src/owl-carosuel.js'
+    },
     output:{
         path: __dirname + '/build',
         filename: 'bundle.js'

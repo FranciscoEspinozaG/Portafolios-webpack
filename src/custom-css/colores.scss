@@ -1,3 +1,11 @@
 $amarillo: #C1A514;
 $gris-oscuro: #272830;
 $gris-claro: #F1F0F2;
+
+.bg-amarillo{
+    background: $amarillo;
+}
+
+.bg-amarillo-a8{
+    background: rgba($color: $amarillo, $alpha: .8);
+}
