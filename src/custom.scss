@@ -12,10 +12,12 @@
 @import "node_modules/bootstrap/scss/images";
 @import "node_modules/bootstrap/scss/code";
 @import "node_modules/bootstrap/scss/grid";
+@import "~bootstrap/scss/bootstrap";
 
 // Personalizadas
-@import "/custom-css/colores";
-@import "/custom-css/tipografias";
+@import "/custom-css/header.scss";
+@import "/custom-css/colores.scss";
+@import "/custom-css/tipografias.scss";
 @import "/owl-carousel/owl-carousel.scss";
 @import "/owl-carousel/owl-theme.scss";
 

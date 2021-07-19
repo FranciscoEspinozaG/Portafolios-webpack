@@ -18,8 +18,8 @@ module.exports = {
                 test:/\.(scss)$/,
                 use :[
                     {loader: MiniCssExtractPluguin.loader},
-                    {loader: "css-loader"},
-                    {loader: "sass-loader"}
+                    {loader: "/custom-css/css-loader"},
+                    {loader: "/custom-css/sass-loader"}
                 ]
             }
         ]

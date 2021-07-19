@@ -2,6 +2,14 @@ $amarillo: #C1A514;
 $gris-oscuro: #272830;
 $gris-claro: #F1F0F2;
 
+.bg-gris-oscuro{
+    background: $gris-oscuro;
+}
+
+.bg-gris-oscuro-a8{
+    background: rgba($color: $gris-oscuro, $alpha: .8);
+}
+
 .bg-amarillo{
     background: $amarillo;
 }

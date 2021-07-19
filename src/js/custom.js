@@ -1,7 +1,3 @@
-import "bootstrap";
-import "./custom.scss";
-import "./owl-carosuel"
-import "./js/custom.js"
 import $ from 'jquery';
 
 $('.owl-theme').owlCarousel({
@@ -12,13 +8,13 @@ $('.owl-theme').owlCarousel({
     autoplay:1000,
     responsive:{
         0:{
-            items:1
+            items:2
         },
         600:{
-            items:1
+            items:2
         },
         1000:{
-            items:1
+            items:2
         }
     }
 })
